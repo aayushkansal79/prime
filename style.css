@@ -101,11 +101,11 @@ html {
 .about {
   box-sizing: border-box;
   /* position: relative; */
-  width: 962px;
+  width: 47.5%;
   height: 347px;
   border: 1.5px solid #6d5639;
   border-radius: 0 20px 20px 0;
-  padding-left: 210px;
+  padding-left: 150px;
   align-content: center;
   /* left: -220px;
   top: 78.5px; */
@@ -148,13 +148,14 @@ html {
 .loc {
   box-sizing: border-box;
   /* position: relative; */
-  width: 962px;
+  /* width: 962px; */
+  width: 47.5%;
   height: 347px;
   border: 1.5px solid #6d5639;
   border-radius: 20px 0 0 20px;
   align-content: center;
   justify-items: right;
-  padding-right: 210px;
+  padding-right: 160px;
   /* right: -220px;
   top: 78.5px; */
 }
@@ -213,7 +214,7 @@ html {
   position: absolute;
   right: 0;
   bottom: 10px;
-  width: 180px;
+  width: 150px;
 }
 
 .glance {
@@ -251,10 +252,15 @@ html {
   overflow-y: hidden;
   overflow-x: scroll;
   height: 480px;
+  cursor: grab;
 }
 
 .glance-right::-webkit-scrollbar {
   display: none;
+}
+
+.amenity-card {
+  width: 350px;
 }
 
 .amenity-card-img {
@@ -285,7 +291,7 @@ html {
 }
 
 .line {
-  width: 100%;
+  width: 350px;
   height: 1.5px;
   background: wheat;
   margin-top: 10px;
@@ -402,6 +408,10 @@ html {
   width: 100%;
   height: 100%;
   display: flex;
+}
+
+.swiper-slide {
+  margin: 0;
 }
 
 .dream h2 {
@@ -895,6 +905,7 @@ html {
 footer {
   background-color: black;
   padding: 40px 200px;
+  text-align: left;
 }
 
 .footer-container {
@@ -1115,6 +1126,10 @@ footer {
     margin-left: 15%;
   }
 
+  .amenity-card {
+    width: 150px;
+  }
+
   .amenity-card-img {
     width: 107px;
     height: 98px;
@@ -1128,8 +1143,9 @@ footer {
     border-radius: 0 0 5px 5px;
   }
 
-  .line{
+  .line {
     height: 1px;
+    width: 107px;
   }
 
   .bg-wave {

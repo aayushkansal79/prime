@@ -636,7 +636,7 @@ const swiperam = new Swiper('.swiper-am', {
     },
     // when window width is >= 640px
     760: {
-      spaceBetween: 50
+      spaceBetween: 100
     }
   },
   
