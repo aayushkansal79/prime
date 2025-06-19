@@ -135,8 +135,8 @@ html {
   /* position: absolute; */
   /* top: 140px;
   left: 200px; */
-  /* padding-right: 40px; */
-  width: 500px;
+  padding-right: 40px;
+  /* width: 500px; */
 }
 
 .about img {
@@ -186,8 +186,8 @@ html {
   /* position: absolute;
   top: 140px;
   right: 200px; */
-  /* padding-right: 210px; */
-  width: 500px;
+  padding-left: 40px;
+  /* width: 500px; */
 }
 
 .loc img {
@@ -324,7 +324,8 @@ html {
 }
 
 .map img {
-  height: 700px;
+  /* height: 700px; */
+  width: 80%;
 }
 
 .map-2 {
@@ -351,6 +352,11 @@ html {
   font-style: italic;
 }
 
+.landmark-text img{
+  /* justify-self: right; */
+  width: 100%;
+}
+
 .landmark-text p {
   font-family: "Work Sans";
   font-style: normal;
@@ -360,7 +366,8 @@ html {
   text-align: right;
   color: #f1e8de;
   margin-top: 50px;
-  width: 400px;
+  padding-right: 100px;
+  /* width: 400px; */
 }
 
 .landmark-details {
@@ -555,13 +562,13 @@ html {
 .amenity-1 {
   background: linear-gradient(35.47deg, #ce2427 -6.4%, #831314 78.72%);
   border-radius: 0 20px 20px 0;
-  width: 1300px;
+  width: 86%;
   height: 430px;
   padding: 20px 20px 20px 0;
 }
 
 .amenity-box-1 {
-  width: 1280px;
+  width: 100%;
   height: 390px;
   border: 1.5px solid #e6cdb6;
   border-radius: 0 20px 20px 0;
@@ -599,7 +606,7 @@ html {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 49px;
+  /* line-height: 49px; */
   color: #ffffff;
   padding-left: 150px;
 }
@@ -613,7 +620,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 19px;
+  /* line-height: 19px; */
   color: #e6cdb6;
   padding-left: 150px;
   padding-right: 50px;
@@ -629,7 +636,7 @@ html {
 .amenity-2 {
   background: linear-gradient(35.47deg, #ce2427 -6.4%, #831314 78.72%);
   border-radius: 20px 0 0 20px;
-  width: 1300px;
+  width: 86%;
   height: 430px;
   padding: 20px 0 20px 20px;
   justify-self: right;
@@ -641,7 +648,7 @@ html {
 }
 
 .amenity-box-2 {
-  width: 600px;
+  width: 50%;
   height: 390px;
   border: 1.5px solid #e6cdb6;
   border-radius: 20px;
@@ -670,7 +677,7 @@ html {
 }
 
 .amenity-box-3 {
-  width: 660px;
+  width: 50%;
   height: 390px;
   border: 1.5px solid #e6cdb6;
   border-radius: 20px 0 0 20px;
@@ -685,7 +692,8 @@ html {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 170px;
+  /* font-size: 170px; */
+  font-size: 10rem;
   letter-spacing: -0.02em;
   color: rgba(230, 205, 182, 0.2);
   margin-top: 0;
@@ -705,7 +713,7 @@ html {
 }
 
 .content-02 div {
-  margin: 55px 0;
+  margin: 45px 0;
 }
 
 .content-02 p {
@@ -1057,11 +1065,13 @@ footer {
   .about-head {
     font-size: 30px;
     margin-bottom: 10px;
+    margin-left: 20px;
   }
-
+  
   .about-text {
     font-size: 10px;
     width: 100%;
+    margin-left: 20px;
   }
 
   .about img {
@@ -1090,6 +1100,7 @@ footer {
     font-size: 10px;
     width: 100%;
     padding-right: 30px;
+    padding-left: 20px;
   }
 
   .loc img {
@@ -1187,8 +1198,9 @@ footer {
 
   .landmark-text p {
     margin-top: 20px;
-    width: 200px;
-    margin-right: 50px;
+    /* width: 200px; */
+    /* margin-right: 50px; */
+    padding: 0 10px 0 50px;
     font-size: 12px;
   }
 
